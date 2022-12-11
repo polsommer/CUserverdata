@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="6" >
+            <task type="Destroy Multiple" id="0" name="Destroy Multiple" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Kill Elite Sandtroopers" name="journalEntryTitle" />
+                <data value="Destroy 10 Elite Sandtroopers in an Imperial controlled city." name="journalEntryDescription" />
+                <data value="killESandtroopers" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="crackdown_elite_sand_trooper_hard" name="Target Server Template" />
+                <data value="" name="Social Group" />
+                <data value="" name="requiredRegion" />
+                <data value="10" name="Count" />
+                <data value="0" name="RewardCredits" />
+                <task type="Destroy Multiple" id="1" name="Destroy Multiple" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Eliminate Stormtrooper Squad Leaders" name="journalEntryTitle" />
+                    <data value="Eliminate 5 Stormtrooper Squad Leaders in an Imperial controlled city." name="journalEntryDescription" />
+                    <data value="kill5STSquadleaders" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="crackdown_stormtrooper_squad_leader_hard" name="Target Server Template" />
+                    <data value="" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="5" name="Count" />
+                    <data value="0" name="RewardCredits" />
+                    <task type="Destroy Multiple" id="2" name="Destroy Multiple" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Neutralize Imperial Corporals" name="journalEntryTitle" />
+                        <data value="Neutralize 3 Imperial Corporals in an Imperial controlled city." name="journalEntryDescription" />
+                        <data value="kill3Corporals" name="taskName" />
+                        <data value="true" name="isVisible" />
+                        <data value="true" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="0" name="createWaypoint" />
+                        <data value="tatooine" name="Planet" />
+                        <data value="0.0" name="LocationX(m)" />
+                        <data value="0.0" name="LocationY(m)" />
+                        <data value="0.0" name="LocationZ(m)" />
+                        <data value="" name="waypointName" />
+                        <data value="crackdown_imperial_corporal_hard" name="Target Server Template" />
+                        <data value="" name="Social Group" />
+                        <data value="" name="requiredRegion" />
+                        <data value="3" name="Count" />
+                        <data value="0" name="RewardCredits" />
+                        <task type="Destroy Multiple" id="3" name="Destroy Multiple" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Eliminate Imperial Sergeants" name="journalEntryTitle" />
+                            <data value="Eliminate 2 Imperial Sergeants in an Imperial controlled city." name="journalEntryDescription" />
+                            <data value="kill2Sergeants" name="taskName" />
+                            <data value="true" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="0" name="createWaypoint" />
+                            <data value="tatooine" name="Planet" />
+                            <data value="0.0" name="LocationX(m)" />
+                            <data value="0.0" name="LocationY(m)" />
+                            <data value="0.0" name="LocationZ(m)" />
+                            <data value="" name="waypointName" />
+                            <data value="crackdown_imperial_sergeant_hard" name="Target Server Template" />
+                            <data value="" name="Social Group" />
+                            <data value="" name="requiredRegion" />
+                            <data value="2" name="Count" />
+                            <data value="0" name="RewardCredits" />
+                            <task type="Destroy Multiple" id="4" name="Destroy Multiple" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Assassinate Imperial Master Sergeant" name="journalEntryTitle" />
+                                <data value="Assassinate an Imperial Master Sergeant in an Imperial controlled city." name="journalEntryDescription" />
+                                <data value="killMasterSergeant" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="true" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="0" name="createWaypoint" />
+                                <data value="tatooine" name="Planet" />
+                                <data value="0.0" name="LocationX(m)" />
+                                <data value="0.0" name="LocationY(m)" />
+                                <data value="0.0" name="LocationZ(m)" />
+                                <data value="" name="waypointName" />
+                                <data value="crackdown_imperial_master_sergeant_hard" name="Target Server Template" />
+                                <data value="" name="Social Group" />
+                                <data value="" name="requiredRegion" />
+                                <data value="1" name="Count" />
+                                <data value="0" name="RewardCredits" />
+                                <task type="Reward" id="5" name="Reward" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="reward" name="journalEntryTitle" />
+                                    <data value="reward" name="journalEntryDescription" />
+                                    <data value="reward" name="taskName" />
+                                    <data value="false" name="isVisible" />
+                                    <data value="0" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="0" name="createWaypoint" />
+                                    <data value="tatooine" name="Planet" />
+                                    <data value="0.0" name="LocationX(m)" />
+                                    <data value="0.0" name="LocationY(m)" />
+                                    <data value="0.0" name="LocationZ(m)" />
+                                    <data value="" name="waypointName" />
+                                    <data value="" name="Experience Type" />
+                                    <data value="0" name="Experience Amount" />
+                                    <data value="Rebel" name="Faction Name" />
+                                    <data value="1000" name="Faction Amount" />
+                                    <data value="25000" name="Bank Credits" />
+                                    <data value="object/tangible/deed/faction_perk/hq/hq_s01_rebel.iff" name="Item" />
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Operation Brassvine" name="journalEntryTitle" />
+            <data value="My mission is to attack the Empire's forces from the ground up. My targets will begin with their elite forces and then on throughout their officers." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Rebel Combatant" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

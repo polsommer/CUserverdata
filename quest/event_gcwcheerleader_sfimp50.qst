@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="4" >
+            <task type="Wait for Signal" id="0" name="Wait for Signal" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Fight the good fight" name="journalEntryTitle" />
+                <data value="I need to find and neutralize 50 Imperial Special Forces agents." name="journalEntryDescription" />
+                <data value="gotAllKills" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="true" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="0" name="createWaypoint" />
+                <data value="tatooine" name="Planet" />
+                <data value="0.0" name="LocationX(m)" />
+                <data value="0.0" name="LocationY(m)" />
+                <data value="0.0" name="LocationZ(m)" />
+                <data value="" name="waypointName" />
+                <data value="got_all_kills" name="Signal Name" />
+                <task type="Reward" id="1" name="Reward" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Reward" name="journalEntryTitle" />
+                    <data value="Reward" name="journalEntryDescription" />
+                    <data value="" name="taskName" />
+                    <data value="false" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="0" name="createWaypoint" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="" name="waypointName" />
+                    <data value="" name="Experience Type" />
+                    <data value="0" name="Experience Amount" />
+                    <data value="Rebel" name="Faction Name" />
+                    <data value="1500" name="Faction Amount" />
+                    <data value="50000" name="Bank Credits" />
+                    <data value="object/tangible/deed/faction_perk/hq/hq_s04_rebel_pvp.iff" name="Item" />
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Operation Hope" name="journalEntryTitle" />
+            <data value="This is my toughest assignment to date. However, I have proven I have what it takes. Upon completion of this operation I will be given command of an Alliance Detachment Headquarters and recieve a medal for distinguished service." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Alliance Special Forces" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>

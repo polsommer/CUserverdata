@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+    <quest version="1.0" >
+        <tasks availableId="14" >
+            <task type="Wait for Signal" id="0" name="Wait for Signal" taskOnFail="false" >
+                <data value="" name="prerequisiteTasks" />
+                <data value="" name="exclusionTasks" />
+                <data value="Contact the Garrison Historian" name="journalEntryTitle" />
+                <data value="I need to speak with the Garrison Historian in the combat guild on Rori." name="journalEntryDescription" />
+                <data value="converseHistorian" name="taskName" />
+                <data value="true" name="isVisible" />
+                <data value="0" name="showSystemMessages" />
+                <data value="0" name="allowRepeats" />
+                <data value="" name="musicOnActivate" />
+                <data value="" name="target" />
+                <data value="" name="parameter" />
+                <data value="" name="grantQuestOnComplete" />
+                <data value="" name="grantQuestOnFail" />
+                <data value="historian_conversed" name="Signal Name" />
+                <task type="Destroy Multiple and Loot" id="1" name="Destroy Multiple and Loot" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Recover Historical Disks" name="journalEntryTitle" />
+                    <data value="The historian's traitorous assistant smuggled out a number of data disks and passed them along to his rebel friends. Eliminate as many rebels as possible until the disks are recovered." name="journalEntryDescription" />
+                    <data value="killRebels" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="true" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="" name="CreatureType" />
+                    <data value="rebel" name="Social Group" />
+                    <data value="" name="requiredRegion" />
+                    <data value="Stolen Historical Data Disk" name="LootItemName" />
+                    <data value="3" name="NumberItemsRequired" />
+                    <data value="33" name="LootDropPercent" />
+                    <data value="0" name="RewardCredits" />
+                    <data value="" name="waypointName" />
+                    <data value="0.0" name="LocationZ(m)" />
+                    <data value="0.0" name="LocationY(m)" />
+                    <data value="0.0" name="LocationX(m)" />
+                    <data value="tatooine" name="Planet" />
+                    <data value="0" name="createWaypoint" />
+                </task>
+                <task type="Wait for Signal" id="2" name="Wait for Signal" taskOnFail="false" >
+                    <data value="" name="prerequisiteTasks" />
+                    <data value="" name="exclusionTasks" />
+                    <data value="Recover Historical Disks" name="journalEntryTitle" />
+                    <data value="I need to recover three historical disks from various individuals." name="journalEntryDescription" />
+                    <data value="diskGuy1" name="taskName" />
+                    <data value="true" name="isVisible" />
+                    <data value="0" name="showSystemMessages" />
+                    <data value="0" name="allowRepeats" />
+                    <data value="" name="musicOnActivate" />
+                    <data value="" name="target" />
+                    <data value="" name="parameter" />
+                    <data value="" name="grantQuestOnComplete" />
+                    <data value="" name="grantQuestOnFail" />
+                    <data value="disk_guy_1" name="Signal Name" />
+                    <task type="Wait for Signal" id="5" name="Wait for Signal" taskOnFail="false" >
+                        <data value="" name="prerequisiteTasks" />
+                        <data value="" name="exclusionTasks" />
+                        <data value="Recover Historical Disks" name="journalEntryTitle" />
+                        <data value="I need to recover three historical disks from various individuals." name="journalEntryDescription" />
+                        <data value="diskGuy2" name="taskName" />
+                        <data value="false" name="isVisible" />
+                        <data value="0" name="showSystemMessages" />
+                        <data value="0" name="allowRepeats" />
+                        <data value="" name="musicOnActivate" />
+                        <data value="" name="target" />
+                        <data value="" name="parameter" />
+                        <data value="" name="grantQuestOnComplete" />
+                        <data value="" name="grantQuestOnFail" />
+                        <data value="disk_guy_2" name="Signal Name" />
+                        <task type="Wait for Signal" id="6" name="Wait for Signal" taskOnFail="false" >
+                            <data value="" name="prerequisiteTasks" />
+                            <data value="" name="exclusionTasks" />
+                            <data value="Recover Historical Disks" name="journalEntryTitle" />
+                            <data value="I need to recover three historical disks from various individuals." name="journalEntryDescription" />
+                            <data value="diskGuy3" name="taskName" />
+                            <data value="false" name="isVisible" />
+                            <data value="true" name="showSystemMessages" />
+                            <data value="0" name="allowRepeats" />
+                            <data value="" name="musicOnActivate" />
+                            <data value="" name="target" />
+                            <data value="" name="parameter" />
+                            <data value="" name="grantQuestOnComplete" />
+                            <data value="" name="grantQuestOnFail" />
+                            <data value="disk_guy_3" name="Signal Name" />
+                            <task type="Wait for Signal" id="8" name="Wait for Signal" taskOnFail="false" >
+                                <data value="" name="prerequisiteTasks" />
+                                <data value="" name="exclusionTasks" />
+                                <data value="Return to Historian" name="journalEntryTitle" />
+                                <data value="Return to the Garrison Historian on Rori in the Narmle Combat Guild." name="journalEntryDescription" />
+                                <data value="disksToHistorian" name="taskName" />
+                                <data value="true" name="isVisible" />
+                                <data value="0" name="showSystemMessages" />
+                                <data value="0" name="allowRepeats" />
+                                <data value="" name="musicOnActivate" />
+                                <data value="" name="target" />
+                                <data value="" name="parameter" />
+                                <data value="" name="grantQuestOnComplete" />
+                                <data value="" name="grantQuestOnFail" />
+                                <data value="disk_to_historian" name="Signal Name" />
+                                <task type="Wait for Signal" id="9" name="Wait for Signal" taskOnFail="false" >
+                                    <data value="" name="prerequisiteTasks" />
+                                    <data value="" name="exclusionTasks" />
+                                    <data value="Visit Data Officer" name="journalEntryTitle" />
+                                    <data value="Visit the data officer at the Dathomir Science Outpost." name="journalEntryDescription" />
+                                    <data value="toDataOfficer" name="taskName" />
+                                    <data value="true" name="isVisible" />
+                                    <data value="false" name="showSystemMessages" />
+                                    <data value="0" name="allowRepeats" />
+                                    <data value="" name="musicOnActivate" />
+                                    <data value="" name="target" />
+                                    <data value="" name="parameter" />
+                                    <data value="" name="grantQuestOnComplete" />
+                                    <data value="" name="grantQuestOnFail" />
+                                    <data value="to_data_officer" name="Signal Name" />
+                                    <task type="Wait for Signal" id="10" name="Wait for Signal" taskOnFail="false" >
+                                        <data value="" name="prerequisiteTasks" />
+                                        <data value="" name="exclusionTasks" />
+                                        <data value="Visit Commander" name="journalEntryTitle" />
+                                        <data value="Hand deliver the disks to the commander." name="journalEntryDescription" />
+                                        <data value="toCommander" name="taskName" />
+                                        <data value="true" name="isVisible" />
+                                        <data value="0" name="showSystemMessages" />
+                                        <data value="0" name="allowRepeats" />
+                                        <data value="" name="musicOnActivate" />
+                                        <data value="" name="target" />
+                                        <data value="" name="parameter" />
+                                        <data value="" name="grantQuestOnComplete" />
+                                        <data value="" name="grantQuestOnFail" />
+                                        <data value="to_commander" name="Signal Name" />
+                                        <task type="Reward" id="11" name="Reward" taskOnFail="false" >
+                                            <data value="" name="prerequisiteTasks" />
+                                            <data value="" name="exclusionTasks" />
+                                            <data value="Reward" name="journalEntryTitle" />
+                                            <data value="Get 200 faction" name="journalEntryDescription" />
+                                            <data value="get200Faction" name="taskName" />
+                                            <data value="false" name="isVisible" />
+                                            <data value="0" name="showSystemMessages" />
+                                            <data value="0" name="allowRepeats" />
+                                            <data value="" name="musicOnActivate" />
+                                            <data value="" name="target" />
+                                            <data value="" name="parameter" />
+                                            <data value="" name="grantQuestOnComplete" />
+                                            <data value="" name="grantQuestOnFail" />
+                                            <data value="" name="Experience Type" />
+                                            <data value="0" name="Experience Amount" />
+                                            <data value="Imperial" name="Faction Name" />
+                                            <data value="200" name="Faction Amount" />
+                                            <data value="2500" name="Bank Credits" />
+                                            <data value="" name="Item" />
+                                            <task type="Wait for Signal" id="12" name="Wait for Signal" taskOnFail="false" >
+                                                <data value="" name="prerequisiteTasks" />
+                                                <data value="" name="exclusionTasks" />
+                                                <data value="Visit Vader" name="journalEntryTitle" />
+                                                <data value="Visit Vader" name="journalEntryDescription" />
+                                                <data value="toVader" name="taskName" />
+                                                <data value="false" name="isVisible" />
+                                                <data value="0" name="showSystemMessages" />
+                                                <data value="0" name="allowRepeats" />
+                                                <data value="" name="musicOnActivate" />
+                                                <data value="" name="target" />
+                                                <data value="" name="parameter" />
+                                                <data value="" name="grantQuestOnComplete" />
+                                                <data value="" name="grantQuestOnFail" />
+                                                <data value="to_vader" name="Signal Name" />
+                                                <task type="Wait for Signal" id="13" name="Wait for Signal" taskOnFail="false" >
+                                                    <data value="" name="prerequisiteTasks" />
+                                                    <data value="" name="exclusionTasks" />
+                                                    <data value="Tie Up Loose Ends" name="journalEntryTitle" />
+                                                    <data value="Speak with the commander to see if he requires any other assistance." name="journalEntryDescription" />
+                                                    <data value="empDayComplete" name="taskName" />
+                                                    <data value="true" name="isVisible" />
+                                                    <data value="true" name="showSystemMessages" />
+                                                    <data value="0" name="allowRepeats" />
+                                                    <data value="" name="musicOnActivate" />
+                                                    <data value="" name="target" />
+                                                    <data value="" name="parameter" />
+                                                    <data value="" name="grantQuestOnComplete" />
+                                                    <data value="" name="grantQuestOnFail" />
+                                                    <data value="emp_day_complete" name="Signal Name" />
+                                                </task>
+                                            </task>
+                                        </task>
+                                    </task>
+                                </task>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </tasks>
+        <list>
+            <data value="Happy Empire Day!" name="journalEntryTitle" />
+            <data value="Assist Imperial officers as they make preparations for celebrating Empire Day." name="journalEntryDescription" />
+            <data value="" name="prerequisiteQuests" />
+            <data value="" name="exclusionQuests" />
+            <data value="false" name="allowRepeats" />
+            <data value="" name="target" />
+            <data value="" name="parameter" />
+            <data value="Ground Quest" name="category" />
+            <data value="true" name="completeWhenTasksComplete" />
+        </list>
+    </quest>
